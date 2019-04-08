@@ -1,0 +1,16 @@
+spring:
+
+  application:
+    name: springboot-rabbitmq
+
+  main:
+    banner-mode: "off"
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: byg
+    password: abc123456
+
+server:
+  port: 8080
